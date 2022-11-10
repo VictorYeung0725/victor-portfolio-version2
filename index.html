@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Victor Personal Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- bootstrap5 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- CSS and Js for font-animation -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-light">
+  <!-- SECTION Navbar Start-->
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">
+        Victor Yeung
+      </a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle btn-danger px-3" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <!-- <li><a class="dropdown-item" href="#about">About</a></li> -->
+          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          <li><a class="dropdown-item" href="#testimonials">testimonials </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar end -->
+
+  <!-- SECTION :Home section start  -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center ">
+        <div class="col-md-6 mt-5 mt-md-0 ">
+          <div class="home-img text-center">
+            <img src="./img/side_bg_black 副本_preview_rev_1.png" class="rounded-circle mw-100" alt="profile home-img">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm</p>
+            <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Developer</h1>
+            <h2 class="fs-4">Victor Yeung</h2>
+            <p class="mt-4 text-muted">As a lifetime learner, I'm perpetually looking for new ways to improve myself and
+              create beautiful things that make lives easier. I'm always open to new challenges and growth
+              opportunities.</p>
+            <a href="#portfolio" class="btn btn-danger px-3 mt-4">My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Home section end  -->
+
+  <!-- SECTION Portfolio section start  -->
+  <Section class="portfolio py-5" id="portfolio">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <!-- Project-name-animation -->
+            <h2 class="fw-bold mb-5" id="font-animation">Latest Work
+              <div class="mask d-flex align-items-center justify-content-center">
+                <span calss="text-center" data-show>Tic Tac Toe.</span>
+                <span calss="text-center">Color-Guessing.</span>
+                <span calss="text-center">Travel-website.</span>
+                <span calss="text-center">Dog-lover-page.</span>
+              </div>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/travel-website-project-places-.png" class="w-100 img-thumbnail"
+                alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">Travel-website-project</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/victor-travel-website-project/ "
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/Dog-lover-page-group-project.png" class="w-100 img-thumbnail"
+                alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">Dog-lover-page</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/Dog-lover-page-group-project-/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/capstone-colmar-assets-victor.png" class="w-100 img-thumbnail"
+                alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">Capstone-colmar-assets</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/capstone_colmar_assets-victor/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/Tic Tac Toe.png" class="w-100 img-thumbnail" alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">Tic Tac Toe</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/victor-tic-tac-toe-game-js/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/color guessing.png" class="w-100 img-thumbnail" alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">Color-guessing game</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/victor-colorguess-game-final-/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/Flex-Panel-Gallery.png" class="w-100 img-thumbnail" alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">Flex-Panel-Gallery</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/05---Flex-Panel-Gallery/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/CSS-Variables.png" class="w-100 img-thumbnail" alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">CSS Variables</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/03---CSS-Variables/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/JavaScript-Drum-Kit-Pratice-Victor.png" class="w-100 img-thumbnail"
+                alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">JavaScript-Drum-Kit</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/JavaScript-Drum-Kit-Pratice_Victor/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <div class="card">
+              <img src="./img/portfolio/nft-preview-card-component-main.png" class="w-100 img-thumbnail"
+                alt="portfolio-item">
+            </div>
+            <h3 class="text-capitalize fs-5 my-2">NFT Preview Card</h3>
+            <p class="mb-4"><a href="https://victoryeung0725.github.io/victor-nft-preview-card-component-main/"
+                class="text-danger text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Section>
+  <!-- Portfolio section end  -->
+
+
+  <!-- Testing version for Masonry Layout start-->
+  <!-- BUG still working on  -->
+  <!-- Testing version for Masonry Layout end here-->
+
+
+
+  <!-- Job Ready start-->
+  <Section class="py-5 bg-danger">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">You need Someone?</p>
+          <h2 class="fs-1 text-white mb-4">I'm the one your're looking for!</h2>
+          <a href="#contact" class="btn btn-outline-light">Hire me</a>
+        </div>
+      </div>
+    </div>
+  </Section>
+  <!-- Job Ready end-->
+
+  <!-- testimonials section start -->
+  <!--BUG <section class="py-5 bg-white" id="testimonials">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- testimonials section end -->
+
+
+
+  <!-- SECTION: Contact section start  -->
+
+  <div class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5 ">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3 ">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted m-0">jack961019@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3 ">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone</h3>
+                <p class="text-muted m-0">+852 65890023</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3 ">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text ms-3 ">
+                <h3 class="fs-5">Address</h3>
+                <p class="text-muted m-0">TIN CHAK ESTATE, TIN SHUI WAI, Hong Kong</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input type="text" placeholder="Your Name"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <input type="text" placeholder="Your Email"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input type="text" placeholder="Subject"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
+                  <div class="col-lg-12 mb-4">
+                    <textarea rows="5" placeholder="Your Message"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                    </textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-danger px-3">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact section end  -->
+
+  <script src="./app.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+
+</body>
+
+</html>
