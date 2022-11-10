@@ -11,9 +11,13 @@ body {
   background-size: cover;
 }
 
+/* heading typing effect */
+
+/* typing effect end */
+
 /* font-animation effect */
 #font-animation {
-  width: 61.25rem;
+  /* width: 61.25rem; */
   font-size: 6.25rem;
   font-family: Helvetica;
   line-height: 1.06;
@@ -36,7 +40,6 @@ body {
   padding-bottom: var(--offset);
 
   background-size: 100% 100%;
-  /* testing version for background-clip  add -webkit*/
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,7 +52,6 @@ body {
 }
 
 .mask span[data-up] {
-  /* move up two height of the font size */
   transform: translateY(-200%);
   transition: 0.5s transform ease-in-out;
 }
