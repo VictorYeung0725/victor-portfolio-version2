@@ -4,7 +4,7 @@ console.log(container);
 
 container.style.display = 'none';
 
-container.addEventListner('DOMContentLoaded', function () {
+container.addEventListener('DOMContentLoaded', () => {
   container.style.display = 'block';
 
   setInterval(function () {
