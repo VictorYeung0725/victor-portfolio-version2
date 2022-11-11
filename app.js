@@ -5,7 +5,14 @@ console.log(container);
 
 container.style.display = 'none';
 
-window.addEventListener('DOMContentLoaded', () => {
+// const myTimeout = setTimeout(hideLoading, 3000);
+
+// function hideLoading() {
+//   loading.style.display = 'none';
+//   container.style.display = 'block';
+// }
+
+document.addEventListener('DOMContentLoaded', () => {
   loading.style.display = 'none';
 
   console.log('i am loading');
@@ -27,18 +34,3 @@ window.addEventListener('DOMContentLoaded', () => {
     showNext.setAttribute('data-show', '');
   }, 2000);
 });
-
-//typing effect start
-// const h1 = document.querySelector('h1');
-// h1.innerHTML = h1.textContent.replace(/\S/g, '<span>$&</span>');
-
-// let delay = 0;
-// document.querySelectorAll('span').forEach((span, index) => {
-//   delay += 0.1;
-
-//   if (index === 6) delay += 0.3;
-
-//   span.style.setProperty('--delay', `${delay}s`);
-// });
-
-//
