@@ -13,10 +13,6 @@ body {
   height: 100vh;
 }
 
-#container {
-  display: none;
-}
-
 /* Loading animation effect */
 /* body{
   padding:0;

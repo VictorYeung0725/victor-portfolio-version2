@@ -1,5 +1,8 @@
 // load content after finished loading
-const container = documen.querySelector('#container');
+const container = document.querySelector('#container');
+console.log(container);
+
+container.style.display = 'none';
 
 container.addEventListner('DOMContentLoaded', function () {
   container.style.display = 'block';
