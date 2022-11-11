@@ -1,10 +1,12 @@
 // load content after finished loading
 const container = document.querySelector('#container');
+const loading = document.querySelector('#loading');
 console.log(container);
 
 container.style.display = 'none';
 
 container.addEventListener('DOMContentLoaded', () => {
+  loading.style.display = 'none';
   container.style.display = 'block';
 
   setInterval(function () {
