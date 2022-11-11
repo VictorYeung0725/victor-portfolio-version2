@@ -5,25 +5,27 @@ console.log(container);
 
 container.style.display = 'none';
 
-container.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => {
   loading.style.display = 'none';
+
+  console.log('i am loading');
   container.style.display = 'block';
 
-  setInterval(function () {
-    const show = document.querySelector('span[data-show]');
-    const showNext =
-      show.nextElementSibling || document.querySelector('span:first-child');
+  // setInterval(function () {
+  //   const show = document.querySelector('span[data-show]');
+  //   const showNext =
+  //     show.nextElementSibling || document.querySelector('span:first-child');
 
-    const up = document.querySelector('span[data-up]');
+  //   const up = document.querySelector('span[data-up]');
 
-    if (up) {
-      up.removeAttribute('data-up');
-    }
-    show.removeAttribute('data-show');
-    show.setAttribute('data-up', '');
+  //   if (up) {
+  //     up.removeAttribute('data-up');
+  //   }
+  //   show.removeAttribute('data-show');
+  //   show.setAttribute('data-up', '');
 
-    showNext.setAttribute('data-show', '');
-  }, 2000);
+  //   showNext.setAttribute('data-show', '');
+  // }, 2000);
 });
 
 //typing effect start
@@ -38,3 +40,5 @@ container.addEventListener('DOMContentLoaded', () => {
 
 //   span.style.setProperty('--delay', `${delay}s`);
 // });
+
+//
