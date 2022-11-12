@@ -1,23 +1,29 @@
 // load content after finished loading
 const container = document.querySelector('#container');
 const loading = document.querySelector('#loading');
+// const imgProfil = document.getElementsByTagName('img');
+
 console.log(container);
 
 container.style.display = 'none';
-
-// const myTimeout = setTimeout(hideLoading, 3000);
-
-// function hideLoading() {
-//   loading.style.display = 'none';
-//   container.style.display = 'block';
-// }
-
 document.addEventListener('DOMContentLoaded', () => {
-  loading.style.display = 'none';
+  setTimeout(hideLoading, 1500);
 
-  console.log('i am loading');
-  container.style.display = 'block';
+  function hideLoading() {
+    loading.style.display = 'none';
+    container.style.display = 'block';
+  }
 
+  // var msnry;
+  // // initialize Masonry after all images have loaded
+  // imagesLoaded(container, function () {
+  //   msnry = new Masonry(imgProfil);
+  // });
+
+  // loading.style.display = 'none';
+  // container.style.display = 'block';
+
+  // text animation
   setInterval(function () {
     const show = document.querySelector('span[data-show]');
     const showNext =
